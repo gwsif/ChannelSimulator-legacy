@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsdom": "^21.1.0"
+  },
+  "name": "channelsimulator",
+  "version": "0.5.1",
+  "description": "simulates television stations",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kevan Pledger",
+  "license": "MIT"
+}

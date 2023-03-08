@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "js/sim.js"></script>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="styles.css">
+  </head>
+  <body>
+    <div id="master-div">
+      <div>
+        <br />
+        <img src="assets/image/channelsimulator_banner.png">
+      </div>
+      <div id="player">
+        <!--YouTube Player sits here-->
+      </div>
+      <div id="on-button-div">
+        <button id = "power-on" onclick="start()">Power On</button>
+        <button id = "power-off" onclick="end()">Power Off</button>
+      </div>
+      <div id="controls">
+        <button id = "btn_playpause" onclick="playPause()">Play/Pause</button>
+        <button id = "btn_next" onclick="next()">Next</button>
+        <button id = "btn_showhide" onclick="showHide()">TV Static</button>
+      </div>
+      
+      <div id = "audio-div">
+        <br />
+        <br />
+        <audio controls>
+          <source src="assets/audio/tvstatic_withfreq.wav" type="audio/wav">
+        </audio>
+      </div>
+    </div>
+    <script>
+    </script>
+  </body>
+</html>
